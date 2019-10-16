@@ -29,8 +29,7 @@ export default {
                                           component: "TextField",
                                           state: {
                                               label: "Отсель",
-                                              margin: "dense",
-                                              value: "12"
+                                              margin: "dense"
                                           }
                                       }
                                   }
