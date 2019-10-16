@@ -29,7 +29,8 @@ export default {
                                           component: "TextField",
                                           state: {
                                               label: "Отсель",
-                                              margin: "dense"
+                                              margin: "dense",
+                                              value: "12"
                                           }
                                       }
                                   }
@@ -54,6 +55,10 @@ export default {
                                 component: "Button",
                                 state: {
                                     variant: "contained",
+                                    onClick: () => {
+                                        window.$z.box1.state.child.box2.state.child.div1.state.child.TextField1.state.value = "454545";
+                                        console.log(window.$z.box1.state.child.box2.state.child.div1.state.child.TextField1.state.value);
+                                    },
                                     child: "Push"
                                 }
                             }
