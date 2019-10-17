@@ -58,6 +58,9 @@ export default {
                                         window.$z.box1.state.child.box2.state.child.div1.state.child.TextField1.state.value = "454545";
                                         console.log(window.$z.box1.state.child.box2.state.child.div1.state.child.TextField1.state.value);
                                     },
+                                    style: {
+                                      backgroundColor : "#ff2222"
+                                    },
                                     child: "Push"
                                 }
                             }

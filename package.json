@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@material-ui/core": "latest",
+    "lodash": "latest",
     "mobx": "latest",
     "mobx-react": "latest",
     "clsx": "latest",
