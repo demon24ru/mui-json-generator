@@ -5,6 +5,7 @@ import {cloneDeep, omit} from 'lodash';
 import Container from '@material-ui/core/Container';
 import * as Mui from '@material-ui/core';
 import shema from './shema';
+import('./MathOps');
 
 const inpts = ["Checkbox", "TextField", "RadioGroup", "Radio", "Select", "NativeSelect", "Slider"];
 
