@@ -29,6 +29,7 @@ function generator(sh) {
         ////////////////////////////////////////////////////////////
 
         const {child, ...other} = prps;
+        console.log(component, Mui[component]);
         el.push(React.createElement(
             inject(() => (cloneDeep(omit(prps, ["child"]))))(observer(Mui[component])),
             Object.assign({key}, cloneDeep(omit(prps, ["child"]))),

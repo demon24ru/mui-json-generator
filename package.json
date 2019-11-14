@@ -16,7 +16,9 @@
     "clsx": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "react-scripts": "latest"
+    "react-scripts": "latest",
+    "qs": "^6.9.1",
+    "axios": "^0.19.0"
   },
   "browserslist": {
     "production": [
